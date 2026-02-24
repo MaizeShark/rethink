@@ -5,6 +5,7 @@ import WIN_056905_WW from './devices/WIN_056905_WW.js'
 import Dev_2REF11EIDA__4 from './devices/2REF11EIDA__4.js'
 import Dev_2RES1VE61NFA2 from './devices/2RES1VE61NFA2.js'
 import Y_V8_Y___W_B32QEUK from './devices/Y_V8_Y___W.B32QEUK.js'
+import F_V8_Y___W_B_2QEUK from './devices/F_V8_Y___W.B_2QEUK.js'
 import { Device, type DeviceManager } from './devmgr.js'
 import { type Connection } from './homeassistant.js'
 import HADevice from './devices/base.js'
@@ -14,7 +15,8 @@ const deviceTypes = {
 	WIN_056905_WW,
 	["2REF11EIDA__4"]: Dev_2REF11EIDA__4,
 	["2RES1VE61NFA2"]: Dev_2RES1VE61NFA2,
-	["Y_V8_Y___W.B32QEUK"]: Y_V8_Y___W_B32QEUK
+	["Y_V8_Y___W.B32QEUK"]: Y_V8_Y___W_B32QEUK,
+	["F_V8_Y___W.B_2QEUK"]: F_V8_Y___W_B_2QEUK
 }
 
 type DeviceWithExtra = Device & {
